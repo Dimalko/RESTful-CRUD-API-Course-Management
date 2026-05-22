@@ -8,9 +8,7 @@ Clone the repository:
 git clone https://github.com/Dimalko/RESTful-CRUD-API-Course-Management
 ```
 
-Go to project folder:
-
-cd course-api
+Go to project folder
 
 Install dependencies:
 
@@ -26,7 +24,10 @@ cp .env.example .env
 
 Generate application key:
 
+```bash
 php artisan key:generate
+```
+
 
 ## Database Setup
 
@@ -63,12 +64,6 @@ http://127.0.0.1:8000
 ```
 
 ## API Documentation (Swagger)
-
-Generate Swagger documentation:
-
-```bash
-php artisan l5-swagger:generate
-```
 
 Swagger UI available at:
 
